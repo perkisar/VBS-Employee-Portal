@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVOZHX5owKU+g+gw+ti1FFAAAAAACAAAAAAADZgAAwAAAABAAAACEggadNsWcrfMHW+zDQajLAAAAAASAAACgAAAAEAAAAFfJ46fSnL52rKuvrK8BbvQgAAAAtyDq/STi99DkocfEKw7mreSq+4kBP3JGHTAg5+pjgn8UAAAA3x++V4cyS3W2rhSY+TtDR/ymynA=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://192.168.1.3/html/test/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="401k/401k.css">
+      <publishTime>04/26/2016 12:47:23</publishTime>
+    </File>
+    <File Include="401k/index.html">
+      <publishTime>04/28/2016 08:51:29</publishTime>
+    </File>
+    <File Include="401k/Summary_Plan_Description_2015-16.pdf">
+      <publishTime>04/26/2016 12:17:20</publishTime>
+    </File>
+    <File Include="404.html">
+      <publishTime>04/04/2016 12:31:04</publishTime>
+    </File>
+    <File Include="ajaxSubmit.php">
+      <publishTime>04/14/2016 09:53:51</publishTime>
+    </File>
+    <File Include="benefits.html">
+      <publishTime>04/28/2016 09:07:36</publishTime>
+    </File>
+    <File Include="bin/VBS Employee Portal.dll">
+      <publishTime>04/26/2016 09:16:41</publishTime>
+    </File>
+    <File Include="css/animate.min.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>03/17/2016 10:26:23</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/checkboxes.css">
+      <publishTime>04/05/2016 10:02:49</publishTime>
+    </File>
+    <File Include="css/employeeManual.css">
+      <publishTime>04/13/2016 10:28:09</publishTime>
+    </File>
+    <File Include="css/entryForm.css">
+      <publishTime>04/29/2016 12:11:49</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/lightbox.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>04/26/2016 12:31:20</publishTime>
+    </File>
+    <File Include="css/prettyPhoto.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/resources.css">
+      <publishTime>04/11/2016 09:39:31</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>03/17/2016 10:38:18</publishTime>
+    </File>
+    <File Include="css/videos.css">
+      <publishTime>04/13/2016 10:34:24</publishTime>
+    </File>
+    <File Include="directory.html">
+      <publishTime>04/28/2016 09:06:03</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/17/2016 10:38:35</publishTime>
+    </File>
+    <File Include="images/404-bg.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/404.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/1.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/1.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/2.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/3.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/4.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/5.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/6.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/left.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/aboutus/right.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/1.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/2.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/3.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/4.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/5.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/6.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/7.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/8.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/9.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/blog-arrow.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/left.png">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/1.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/10.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/2.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/3.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/4.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/5.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/6.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/7.jpg">
+      <publishTime>03/17/2016 10:38:40</publishTime>
+    </File>
+    <File Include="images/blog/masonary/8.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/masonary/9.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/right.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/1.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/2.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/3.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/4.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/5.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/6.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/7.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/8.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blog/timeline/9.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blogdetails/1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blogdetails/2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blogdetails/3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/blogdetails/4.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/coming-soon-bg.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/coming-soon1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/coming-soon2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/coming-soon3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/coming-soon4.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/contact-bg.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/directory/companyPhoto.png">
+      <publishTime>03/25/2016 10:49:05</publishTime>
+    </File>
+    <File Include="images/home/activeicon.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client4.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client5.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/client6.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/clients.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/cycle.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/footer.png">
+      <publishTime>03/17/2016 11:40:07</publishTime>
+    </File>
+    <File Include="images/home/icon1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/icon2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/icon3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/image1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/image2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/image3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/profile1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/profile2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider-bg.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider/birds1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider/birds2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider/bolt.png">
+      <publishTime>04/04/2016 09:14:40</publishTime>
+    </File>
+    <File Include="images/home/slider/hill.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider/house.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/slider/sun.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/tour-bg.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/tour-icon1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/tour-icon2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/home/under.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/ico/favicon.ico">
+      <publishTime>03/28/2016 10:30:34</publishTime>
+    </File>
+    <File Include="images/icon-map.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/lightbox/close.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/lightbox/loading.gif">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/lightbox/next.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/lightbox/prev.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/logo/vbs-bolt.png">
+      <publishTime>03/17/2016 10:45:53</publishTime>
+    </File>
+    <File Include="images/portfolio-details/1.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/1.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/10.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/11.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/12.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/13.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/14.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/15.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/16.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/17.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/18.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/19.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/2.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/20.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/21.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/22.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/23.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/24.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/3.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/4.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/5.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/6.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/7.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/8.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/9.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/icon.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/left.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/popular1.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/popular2.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/popular3.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/popular4.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/popular5.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/project1.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/project2.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/project3.jpg">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/portfolio/right.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/resources/bend.png">
+      <publishTime>04/08/2016 13:21:34</publishTime>
+    </File>
+    <File Include="images/services/1.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/services/2.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/services/3.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/services/4.png">
+      <publishTime>03/17/2016 10:38:41</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/1.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/10.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/2.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/3.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/4.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/5.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/6.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/7.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/8.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/fasteners/9.png">
+      <publishTime>04/26/2016 10:42:34</publishTime>
+    </File>
+    <File Include="images/videos/how_to_auto_reply.png">
+      <publishTime>04/26/2016 10:24:44</publishTime>
+    </File>
+    <File Include="images/videos/how_to_default_printer.png">
+      <publishTime>04/26/2016 10:24:44</publishTime>
+    </File>
+    <File Include="images/videos/how_to_fax.png">
+      <publishTime>04/26/2016 10:24:44</publishTime>
+    </File>
+    <File Include="images/videos/temp.png">
+      <publishTime>04/13/2016 10:31:22</publishTime>
+    </File>
+    <File Include="images/videos/world_of_fasteners.png">
+      <publishTime>04/26/2016 10:29:45</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/28/2016 09:03:03</publishTime>
+    </File>
+    <File Include="itinerary/config.php">
+      <publishTime>04/29/2016 11:40:50</publishTime>
+    </File>
+    <File Include="itinerary/editEntry.php">
+      <publishTime>05/02/2016 11:16:23</publishTime>
+    </File>
+    <File Include="itinerary/enteritems.php">
+      <publishTime>05/02/2016 11:02:38</publishTime>
+    </File>
+    <File Include="itinerary/entry.js">
+      <publishTime>04/25/2016 12:14:41</publishTime>
+    </File>
+    <File Include="itinerary/entry/entry.js">
+      <publishTime>04/20/2016 08:14:30</publishTime>
+    </File>
+    <File Include="itinerary/entry/index.php">
+      <publishTime>04/20/2016 08:15:20</publishTime>
+    </File>
+    <File Include="itinerary/index.html">
+      <publishTime>04/28/2016 08:51:29</publishTime>
+    </File>
+    <File Include="itinerary/itinerary.js">
+      <publishTime>04/20/2016 10:48:23</publishTime>
+    </File>
+    <File Include="itinerary/listitems.php">
+      <publishTime>05/02/2016 10:55:45</publishTime>
+    </File>
+    <File Include="itinerary/view.js">
+      <publishTime>04/29/2016 11:53:57</publishTime>
+    </File>
+    <File Include="js/alphabet.js">
+      <publishTime>03/28/2016 11:49:08</publishTime>
+    </File>
+    <File Include="js/audio.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/audiojs.swf">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>03/17/2016 10:26:29</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/coundown-timer.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/displayVideos.js">
+      <publishTime>03/17/2016 12:15:33</publishTime>
+    </File>
+    <File Include="js/gmaps.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/holder.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/html5shiv.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/itinerary.js">
+      <publishTime>04/20/2016 10:49:33</publishTime>
+    </File>
+    <File Include="js/jquery.countTo.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/jquery.fitvids.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/jquery.isotope.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/lightbox.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/mailchimp.js">
+      <publishTime>03/17/2016 10:59:00</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/masonry.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/newVideos.js">
+      <publishTime>04/26/2016 13:00:17</publishTime>
+    </File>
+    <File Include="js/player-graphics.gif">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/respond.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/scrollbarContentFix.js">
+      <publishTime>04/04/2016 11:01:49</publishTime>
+    </File>
+    <File Include="js/stickyManual.js">
+      <publishTime>04/11/2016 10:25:46</publishTime>
+    </File>
+    <File Include="js/vbs.js">
+      <publishTime>03/17/2016 10:23:02</publishTime>
+    </File>
+    <File Include="js/videos.js">
+      <publishTime>03/29/2016 09:21:20</publishTime>
+    </File>
+    <File Include="js/w.gif">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="js/wow.min.js">
+      <publishTime>03/17/2016 10:38:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/17/2016 10:04:09</publishTime>
+    </File>
+    <File Include="resources/employeeManual.html">
+      <publishTime>04/28/2016 08:51:29</publishTime>
+    </File>
+    <File Include="resources/forms.html">
+      <publishTime>04/04/2016 11:25:06</publishTime>
+    </File>
+    <File Include="resources/resources.html">
+      <publishTime>04/28/2016 08:51:29</publishTime>
+    </File>
+    <File Include="resources/VBS Employee Handbook.docx">
+      <publishTime>04/06/2016 11:01:36</publishTime>
+    </File>
+    <File Include="testingPHPajax.html">
+      <publishTime>04/14/2016 09:54:06</publishTime>
+    </File>
+    <File Include="videos.html">
+      <publishTime>04/28/2016 10:58:09</publishTime>
+    </File>
+    <File Include="videos/categories.js">
+      <publishTime>04/28/2016 10:09:21</publishTime>
+    </File>
+    <File Include="videos/computer/computer.js">
+      <publishTime>04/28/2016 10:43:59</publishTime>
+    </File>
+    <File Include="videos/computer/images/videos/how_to_auto_reply.png">
+      <publishTime>04/28/2016 10:37:17</publishTime>
+    </File>
+    <File Include="videos/computer/images/videos/how_to_default_printer.png">
+      <publishTime>04/28/2016 10:37:17</publishTime>
+    </File>
+    <File Include="videos/computer/images/videos/how_to_fax.png">
+      <publishTime>04/28/2016 10:37:17</publishTime>
+    </File>
+    <File Include="videos/computer/index.html">
+      <publishTime>04/28/2016 11:13:32</publishTime>
+    </File>
+    <File Include="videos/details.php">
+      <publishTime>04/28/2016 08:51:27</publishTime>
+    </File>
+    <File Include="videos/displayVideos.js">
+      <publishTime>04/28/2016 10:50:30</publishTime>
+    </File>
+    <File Include="videos/fastener/fastener.js">
+      <publishTime>04/28/2016 10:44:14</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/1.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/10.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/2.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/3.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/4.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/5.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/6.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/7.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/8.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/images/videos/fasteners/9.png">
+      <publishTime>04/28/2016 10:37:19</publishTime>
+    </File>
+    <File Include="videos/fastener/index.html">
+      <publishTime>04/28/2016 11:14:16</publishTime>
+    </File>
+    <File Include="videos/inxsql/index.html">
+      <publishTime>04/28/2016 11:12:37</publishTime>
+    </File>
+    <File Include="videos/inxsql/inxsql.js">
+      <publishTime>04/28/2016 10:44:06</publishTime>
+    </File>
+    <File Include="videos/jsonVideos.js">
+      <publishTime>04/28/2016 11:14:48</publishTime>
+    </File>
+    <File Include="videos/videoDetails.js">
+      <publishTime>04/26/2016 12:53:38</publishTime>
+    </File>
+    <File Include="videos/videos.css">
+      <publishTime>04/28/2016 11:06:38</publishTime>
+    </File>
+    <File Include="videos/videos.js">
+      <publishTime>04/28/2016 09:49:59</publishTime>
+    </File>
+    <File Include="vision/index.html">
+      <publishTime>04/28/2016 08:58:03</publishTime>
+    </File>
+    <File Include="vision/vision.css">
+      <publishTime>04/28/2016 08:42:31</publishTime>
+    </File>
+    <File Include="vision/Vision_Benefit_Summary.pdf">
+      <publishTime>04/28/2016 08:43:12</publishTime>
+    </File>
+    <File Include="vision/Vision_Card_ID.pdf">
+      <publishTime>04/28/2016 08:43:45</publishTime>
+    </File>
+    <File Include="vision/Vision_Contact_Lenses.pdf">
+      <publishTime>04/28/2016 08:43:35</publishTime>
+    </File>
+    <File Include="vision/Vision_FAQ.pdf">
+      <publishTime>04/28/2016 08:43:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/19/2016 09:27:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

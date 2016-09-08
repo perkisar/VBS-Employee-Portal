@@ -1,0 +1,24 @@
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll.config
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.csprojResolveAssemblyReference.cache
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Source\Repos\SCP-2016\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll.config
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.csprojResolveAssemblyReference.cache
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll.config
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.csprojResolveAssemblyReference.cache
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll.config
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\bin\VBS Employee Portal.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.csprojResolveAssemblyReference.cache
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\VBS Employee Portal\VBS Employee Portal\obj\Debug\VBS Employee Portal.pdb
