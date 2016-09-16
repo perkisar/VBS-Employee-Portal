@@ -48,3 +48,4 @@ Temporary Items
 
 # Unnecessary VS folders. 
 .vs/ 
+packages/
