@@ -23,9 +23,16 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
+    <!-- Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+
+    <!-- Filters -->
+    <script src="filters/igTruncate.js"></script>
+
 </head><!--/head-->
 
-<body>
+<body ng-app="directory">
     <header id="header">
         <div class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -110,425 +117,21 @@
         </div>
 
 
-        <div class="container">
-            <div class="col-md-6">
-                <div id="abby" class="person">
-                    <div id="a" class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Abby Fabian</h1>
-                        <p class="dirTitle">Outside Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 230 | <a href="mailto:abby@vancouverbolt.com">abby@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="amy" class="person">
+        <div class="container" ng-controller="DirectoryController">
+            <div class="col-md-6" ng-repeat="person in persons">
+                <div id="{{person.id}}" class="person">
                     <div class="col-md-3">
                         <img class="dirImg" src="images/home/icon1.png" />
                     </div>
                     <div class="col-md-9">
-                        <h1 class="name">Amy McAllister</h1>
-                        <p class="dirTitle">Accounts Payable</p>
+                        <h1 class="name">{{ person.name }}</h1>
+                        <p class="dirTitle">{{ person.title }}</p>
                     </div>
                     <div class="col-xs-12">
-                        <p class="dirContact">ext. 212 | <a href="mailto:amy@vancouverbolt.com">amy@vancouverbolt.com</a></p>
+                        <p class="dirContact">ext. {{ person.ext }} <span ng-if="person.email">|</span> <a ng-if="person.email" href="mailto:{{person.email}}@vancouverbolt.com">{{person.email}}@vancouverbolt.com</a></p>
                     </div>
                 </div>
 
-                
-                <div id="brady" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Brady Peterson</h1>
-                        <p class="dirTitle">Sales Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 302 | <a href="mailto:brady@vancouverbolt.com">brady@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="brian" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Brian Hyland</h1>
-                        <p class="dirTitle">Store Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 301 | <a href="mailto:brian@vancouverbolt.com">brian@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="craig" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="c" class="col-md-9">
-                        <h1 class="name">Craig Johnson</h1>
-                        <p class="dirTitle">President</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 207 | <a href="mailto:craig@vancouverbolt.com">craig@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="dan" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="d" class="col-md-9">
-                        <h1 class="name">Dan Lagana</h1>
-                        <p class="dirTitle">Shipping</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. n/a | <a href="mailto:dan@vancouverbolt.com">dan@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="dave" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Dave Roos</h1>
-                        <p class="dirTitle">Sales Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 219 | <a href="mailto:rooster@vancouverbolt.com">rooster@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="debbie" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Debbie Freeman</h1>
-                        <p class="dirTitle">Purchasing</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 210 | <a href="mailto:debbie@vancouverbolt.com">debbie@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="" name="hahaha" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Denise Albert</h1>
-                        <p class="dirTitle">Office Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 206 | <a href="mailto:denise@vancouverbolt.com">denise@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="eddy" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="e" class="col-md-9">
-                        <h1 class="name">Eddy Waddell</h1>
-                        <p class="dirTitle">Sales Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 304 | <a href="mailto:eddy@vancouverbolt.com">eddy@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="gary" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="g" class="col-md-9">
-                        <h1 class="name">Gary Baker</h1>
-                        <p class="dirTitle">Shop</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. n/a | <a href="mailto:gary@vancouverbolt.com">gary@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="geary" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Geary Harbison</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 305 | <a href="mailto:geary@vancouverbolt.com">geary@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-                <div id="halley" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="h" class="col-md-9">
-                        <h1 class="name">Halley Kramer</h1>
-                        <p class="dirTitle">Accounting</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 208 | <a href="mailto:halley@vancouverbolt.com">halley@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-                <div id="jason" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="j" class="col-md-9">
-                        <h1 class="name">Jason St. Hilaire</h1>
-                        <p class="dirTitle">IT Guy</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact"><a href="mailto:jasonst@vancouverbolt.com">jasonst@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-                <div id="jonathan" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="b" class="col-md-9">
-                        <h1 class="name">Jonathan White</h1>
-                        <p class="dirTitle">Sales Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 205 | <a href="mailto:jonathan@vancouverbolt.com">jonathan@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-                <div id="josh" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Josh Gottwig</h1>
-                        <p class="dirTitle">Receiving</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. n/a | <a href="mailto:josh@vancouverbolt.com">josh@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-6">
-                
-                <div id="julie" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="j" class="col-md-9">
-                        <h1 class="name">Julie Amell</h1>
-                        <p class="dirTitle">Secretary</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 200 | <a href="mailto:julie@vancouverbolt.com">julie@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="kevin" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="k" class="col-md-9">
-                        <h1 class="name">Kevin Hayes</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 222 | <a href="mailto:kevin.hayes@vancouverbolt.com">kevin.hayes@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="kris" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Kris Johnson</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 223 | <a href="mailto:kris@vancouverbolt.com">kris@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="lucy" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="l" class="col-md-9">
-                        <h1 class="name">Lucy Nielson</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 218 | <a href="mailto:lucy@vancouverbolt.com">lucy@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="mike" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="m" class="col-md-9">
-                        <h1 class="name">Mike Trimble</h1>
-                        <p class="dirTitle">Inventory Management</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 232 | <a href="mailto:mike@vancouverbolt.com">mike@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="nate" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="n" class="col-md-9">
-                        <h1 class="name">Nathan Vaandering</h1>
-                        <p class="dirTitle">IT</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. n/a | <a href="mailto:nate@vancouverbolt.com">nate@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="ralph" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="r" class="col-md-9">
-                        <h1 class="name">Ralph Kraus</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 214 | <a href="mailto:ralph@vancouverbolt.com">ralph@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="ray" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Ray Bristow</h1>
-                        <p class="dirTitle">General Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 204 | <a href="mailto:rbristow@vancouverbolt.com">rbristow@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="richard" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Richard Lampart</h1>
-                        <p class="dirTitle">Warehouse Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 202 | <a href="mailto:richard@vancouverbolt.com">richard@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="sarah" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="s" class="col-md-9">
-                        <h1 class="name">Sarah Perkins</h1>
-                        <p class="dirTitle">Website Administrator</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 225 | <a href="mailto:sarah@vancouverbolt.com">sarah@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="stephanie" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Stephanie Stewart</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 217 | <a href="mailto:stephanie@vancouverbolt.com">stephanie@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="trisha" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="t" class="col-md-9">
-                        <h1 class="name">Trisha Cooper</h1>
-                        <p class="dirTitle">Inventory Management</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 215 | <a href="mailto:trisha@vancouverbolt.com">trisha@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="vicki" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="v" class="col-md-9">
-                        <h1 class="name">Vicki Rappin</h1>
-                        <p class="dirTitle">Purchasing</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 216 | <a href="mailto:rappin@vancouverbolt.com">rappin@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="wilH" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div id="w" class="col-md-9">
-                        <h1 class="name">Wil Harrington</h1>
-                        <p class="dirTitle">Sales Manager</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 300 | <a href="mailto:wil@vancouverbolt.com">wil@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="wilS" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Wil Simon</h1>
-                        <p class="dirTitle">Receiving</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. 228 | <a href="mailto:simon.says@vancouverbolt.com">simon.says@vancouverbolt.com</a></p>
-                    </div>
-                </div>
-
-                <div id="wyatt" class="person">
-                    <div class="col-md-3">
-                        <img class="dirImg" src="images/home/icon1.png" />
-                    </div>
-                    <div class="col-md-9">
-                        <h1 class="name">Wyatt Ferguson</h1>
-                        <p class="dirTitle">Sales</p>
-                    </div>
-                    <div class="col-xs-12">
-                        <p class="dirContact">ext. n/a | <a href="mailto:wyatt@vancouverbolt.com">wyatt@vancouverbolt.com</a></p>
-                    </div>
-                </div>
 
 
 
@@ -553,14 +156,19 @@
     </footer>
     <!--/#footer-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- Scripts -->
     <script src="js/scrollbarContentFix.js"></script>
-
     <script type="text/javascript" src="js/alphabet.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>   
+
+    <!-- Controllers -->
+    <script src="js/controllers/directory.js"></script>
+
+    <!-- Directories -->
+
 </body>
 </html>

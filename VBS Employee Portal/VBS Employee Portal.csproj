@@ -93,6 +93,7 @@
     <Content Include="itinerary\itinerary.js" />
     <Content Include="itinerary\view.js" />
     <Content Include="js\alphabet.js" />
+    <Content Include="js\directory.js" />
     <Content Include="js\itinerary.js" />
     <Content Include="js\newVideos.js" />
     <Content Include="js\pagination\.gitignore" />
