@@ -71,6 +71,8 @@
     <Content Include="css\resources.css" />
     <Content Include="css\videos.css" />
     <Content Include="directory.html" />
+    <Content Include="filters\igTruncate.js" />
+    <Content Include="filters\jsFilters.js" />
     <Content Include="images\directory\companyPhoto.png" />
     <Content Include="images\home\slider\bolt.png" />
     <Content Include="images\ico\favicon.ico" />
@@ -93,7 +95,8 @@
     <Content Include="itinerary\itinerary.js" />
     <Content Include="itinerary\view.js" />
     <Content Include="js\alphabet.js" />
-    <Content Include="js\directory.js" />
+    <Content Include="js\controllers\directory.js" />
+    <Content Include="js\controllers\navbar.js" />
     <Content Include="js\itinerary.js" />
     <Content Include="js\newVideos.js" />
     <Content Include="js\pagination\.gitignore" />
