@@ -71,8 +71,6 @@
     <Content Include="css\resources.css" />
     <Content Include="css\videos.css" />
     <Content Include="directory.html" />
-    <Content Include="filters\igTruncate.js" />
-    <Content Include="filters\jsFilters.js" />
     <Content Include="images\directory\companyPhoto.png" />
     <Content Include="images\home\slider\bolt.png" />
     <Content Include="images\ico\favicon.ico" />
@@ -97,6 +95,8 @@
     <Content Include="js\alphabet.js" />
     <Content Include="js\controllers\directory.js" />
     <Content Include="js\controllers\navbar.js" />
+    <Content Include="js\controllers\videos.js" />
+    <Content Include="js\directory.js" />
     <Content Include="js\itinerary.js" />
     <Content Include="js\newVideos.js" />
     <Content Include="js\pagination\.gitignore" />
@@ -137,12 +137,14 @@
     <Content Include="signatures\Kris Johnson.htm" />
     <Content Include="signatures\README.txt" />
     <Content Include="signatures\Sarah Perkins.htm" />
+    <Content Include="videosJS.html" />
     <Content Include="videos\categories.js" />
     <Content Include="videos\computer\computer.js" />
     <Content Include="videos\computer\index.html" />
     <Content Include="videos\computer\images\videos\how_to_auto_reply.png" />
     <Content Include="videos\computer\images\videos\how_to_default_printer.png" />
     <Content Include="videos\computer\images\videos\how_to_fax.png" />
+    <Content Include="videos\details.html" />
     <Content Include="videos\displayVideos.js" />
     <Content Include="videos\fastener\fastener.js" />
     <Content Include="videos\fastener\index.html" />

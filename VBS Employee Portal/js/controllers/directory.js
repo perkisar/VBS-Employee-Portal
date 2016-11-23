@@ -139,7 +139,7 @@ myApp.controller('DirectoryController', ['$scope', function ($scope) {
         },
         {
             name: 'Kris Johnson',
-            title: 'Counter Sales',
+            title: 'Outside Sales',
             ext: '223',
             email: 'kris',
             picture: ''
